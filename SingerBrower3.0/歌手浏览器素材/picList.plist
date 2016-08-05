@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>周杰伦</string>
+		<key>songName</key>
+		<string>🐂仔很忙</string>
+		<key>pic</key>
+		<string>周杰伦.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>林俊杰</string>
+		<key>songName</key>
+		<string>第几个100天</string>
+		<key>pic</key>
+		<string>林俊杰.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Taylor</string>
+		<key>songName</key>
+		<string>Taylor Objective-C</string>
+		<key>pic</key>
+		<string>泰勒斯威夫特.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>王力宏</string>
+		<key>songName</key>
+		<string>改变自己</string>
+		<key>pic</key>
+		<string>王力宏.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>那英</string>
+		<key>songName</key>
+		<string>征服</string>
+		<key>pic</key>
+		<string>那英.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>陈奕迅</string>
+		<key>songName</key>
+		<string>爱情转移</string>
+		<key>pic</key>
+		<string>陈奕迅.jpg</string>
+	</dict>
+</array>
+</plist>
