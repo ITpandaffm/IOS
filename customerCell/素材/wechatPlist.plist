@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>1.jpg</string>
+		<key>name</key>
+		<string>范冰冰</string>
+		<key>say</key>
+		<string>你已成功添加好友</string>
+		<key>sayTime</key>
+		<string>21:44</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>2.jpg</string>
+		<key>name</key>
+		<string>习大大</string>
+		<key>say</key>
+		<string>什么时候吃饭</string>
+		<key>sayTime</key>
+		<string>12:33</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>3.jpg</string>
+		<key>name</key>
+		<string>王思聪</string>
+		<key>say</key>
+		<string>下楼没啊</string>
+		<key>sayTime</key>
+		<string>7:04</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>4.jpg</string>
+		<key>name</key>
+		<string>刘德华</string>
+		<key>say</key>
+		<string>什么时候有空一起吃个饭?</string>
+		<key>sayTime</key>
+		<string>22:00</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>5.jpg</string>
+		<key>name</key>
+		<string>新华社</string>
+		<key>say</key>
+		<string>老大这次我要怎么说好啊?老规矩?</string>
+		<key>sayTime</key>
+		<string>14:24</string>
+	</dict>
+</array>
+</plist>
