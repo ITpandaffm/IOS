@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YOc-xK-iVC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="KGh-6l-S1q">
+            <objects>
+                <navigationController storyboardIdentifier="WechatNavi" id="YOc-xK-iVC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="4j3-6L-WMs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hoN-Fw-MJC" kind="relationship" relationship="rootViewController" id="zTk-AA-zt9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TTJ-6y-491" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-283" y="307"/>
+        </scene>
+        <!--Wechat View Controller-->
+        <scene sceneID="2mN-IO-XLB">
+            <objects>
+                <viewController id="hoN-Fw-MJC" customClass="WechatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wgu-mg-5ji"/>
+                        <viewControllerLayoutGuide type="bottom" id="eWO-Bj-oYH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oOm-mC-czy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lfE-Zn-nRy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="out-Wa-TmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="403" y="307"/>
+        </scene>
+    </scenes>
+</document>
