@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B94BFC71D83975700042179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFC61D83975700042179 /* main.m */; };
+		8B94BFCA1D83975700042179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFC91D83975700042179 /* AppDelegate.m */; };
+		8B94BFCD1D83975700042179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFCC1D83975700042179 /* ViewController.m */; };
+		8B94BFD01D83975700042179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B94BFCE1D83975700042179 /* Main.storyboard */; };
+		8B94BFD21D83975700042179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B94BFD11D83975700042179 /* Assets.xcassets */; };
+		8B94BFD51D83975700042179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B94BFD31D83975700042179 /* LaunchScreen.storyboard */; };
+		8B94BFE01D83975700042179 /* SealSnowAndRainAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFDF1D83975700042179 /* SealSnowAndRainAnimationTests.m */; };
+		8B94BFEB1D83975700042179 /* SealSnowAndRainAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFEA1D83975700042179 /* SealSnowAndRainAnimationUITests.m */; };
+		8B94BFFA1D83981C00042179 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFF91D83981C00042179 /* CAEmitterLayerView.m */; };
+		8B94BFFD1D83A1FE00042179 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFFC1D83A1FE00042179 /* SnowView.m */; };
+		8B94C0001D83A61100042179 /* RainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94BFFF1D83A61100042179 /* RainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B94BFDC1D83975700042179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B94BFBA1D83975700042179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B94BFC11D83975700042179;
+			remoteInfo = SealSnowAndRainAnimation;
+		};
+		8B94BFE71D83975700042179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B94BFBA1D83975700042179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B94BFC11D83975700042179;
+			remoteInfo = SealSnowAndRainAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B94BFC21D83975700042179 /* SealSnowAndRainAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SealSnowAndRainAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94BFC61D83975700042179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B94BFC81D83975700042179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B94BFC91D83975700042179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B94BFCB1D83975700042179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B94BFCC1D83975700042179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B94BFCF1D83975700042179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B94BFD11D83975700042179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B94BFD41D83975700042179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B94BFD61D83975700042179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B94BFDB1D83975700042179 /* SealSnowAndRainAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SealSnowAndRainAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94BFDF1D83975700042179 /* SealSnowAndRainAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SealSnowAndRainAnimationTests.m; sourceTree = "<group>"; };
+		8B94BFE11D83975700042179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B94BFE61D83975700042179 /* SealSnowAndRainAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SealSnowAndRainAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94BFEA1D83975700042179 /* SealSnowAndRainAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SealSnowAndRainAnimationUITests.m; sourceTree = "<group>"; };
+		8B94BFEC1D83975700042179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B94BFF81D83981C00042179 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
+		8B94BFF91D83981C00042179 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
+		8B94BFFB1D83A1FE00042179 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		8B94BFFC1D83A1FE00042179 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		8B94BFFE1D83A61100042179 /* RainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainView.h; sourceTree = "<group>"; };
+		8B94BFFF1D83A61100042179 /* RainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B94BFBF1D83975700042179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFD81D83975700042179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFE31D83975700042179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B94BFB91D83975700042179 = {
+			isa = PBXGroup;
+			children = (
+				8B94BFC41D83975700042179 /* SealSnowAndRainAnimation */,
+				8B94BFDE1D83975700042179 /* SealSnowAndRainAnimationTests */,
+				8B94BFE91D83975700042179 /* SealSnowAndRainAnimationUITests */,
+				8B94BFC31D83975700042179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B94BFC31D83975700042179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B94BFC21D83975700042179 /* SealSnowAndRainAnimation.app */,
+				8B94BFDB1D83975700042179 /* SealSnowAndRainAnimationTests.xctest */,
+				8B94BFE61D83975700042179 /* SealSnowAndRainAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B94BFC41D83975700042179 /* SealSnowAndRainAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8B94BFC81D83975700042179 /* AppDelegate.h */,
+				8B94BFC91D83975700042179 /* AppDelegate.m */,
+				8B94BFCB1D83975700042179 /* ViewController.h */,
+				8B94BFCC1D83975700042179 /* ViewController.m */,
+				8B94BFF81D83981C00042179 /* CAEmitterLayerView.h */,
+				8B94BFF91D83981C00042179 /* CAEmitterLayerView.m */,
+				8B94BFFB1D83A1FE00042179 /* SnowView.h */,
+				8B94BFFC1D83A1FE00042179 /* SnowView.m */,
+				8B94BFFE1D83A61100042179 /* RainView.h */,
+				8B94BFFF1D83A61100042179 /* RainView.m */,
+				8B94BFCE1D83975700042179 /* Main.storyboard */,
+				8B94BFD11D83975700042179 /* Assets.xcassets */,
+				8B94BFD31D83975700042179 /* LaunchScreen.storyboard */,
+				8B94BFD61D83975700042179 /* Info.plist */,
+				8B94BFC51D83975700042179 /* Supporting Files */,
+			);
+			path = SealSnowAndRainAnimation;
+			sourceTree = "<group>";
+		};
+		8B94BFC51D83975700042179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B94BFC61D83975700042179 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B94BFDE1D83975700042179 /* SealSnowAndRainAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B94BFDF1D83975700042179 /* SealSnowAndRainAnimationTests.m */,
+				8B94BFE11D83975700042179 /* Info.plist */,
+			);
+			path = SealSnowAndRainAnimationTests;
+			sourceTree = "<group>";
+		};
+		8B94BFE91D83975700042179 /* SealSnowAndRainAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B94BFEA1D83975700042179 /* SealSnowAndRainAnimationUITests.m */,
+				8B94BFEC1D83975700042179 /* Info.plist */,
+			);
+			path = SealSnowAndRainAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B94BFC11D83975700042179 /* SealSnowAndRainAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94BFEF1D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimation" */;
+			buildPhases = (
+				8B94BFBE1D83975700042179 /* Sources */,
+				8B94BFBF1D83975700042179 /* Frameworks */,
+				8B94BFC01D83975700042179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SealSnowAndRainAnimation;
+			productName = SealSnowAndRainAnimation;
+			productReference = 8B94BFC21D83975700042179 /* SealSnowAndRainAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B94BFDA1D83975700042179 /* SealSnowAndRainAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94BFF21D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimationTests" */;
+			buildPhases = (
+				8B94BFD71D83975700042179 /* Sources */,
+				8B94BFD81D83975700042179 /* Frameworks */,
+				8B94BFD91D83975700042179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B94BFDD1D83975700042179 /* PBXTargetDependency */,
+			);
+			name = SealSnowAndRainAnimationTests;
+			productName = SealSnowAndRainAnimationTests;
+			productReference = 8B94BFDB1D83975700042179 /* SealSnowAndRainAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B94BFE51D83975700042179 /* SealSnowAndRainAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94BFF51D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimationUITests" */;
+			buildPhases = (
+				8B94BFE21D83975700042179 /* Sources */,
+				8B94BFE31D83975700042179 /* Frameworks */,
+				8B94BFE41D83975700042179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B94BFE81D83975700042179 /* PBXTargetDependency */,
+			);
+			name = SealSnowAndRainAnimationUITests;
+			productName = SealSnowAndRainAnimationUITests;
+			productReference = 8B94BFE61D83975700042179 /* SealSnowAndRainAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B94BFBA1D83975700042179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ITPanda;
+				TargetAttributes = {
+					8B94BFC11D83975700042179 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X4435MZ82Y;
+					};
+					8B94BFDA1D83975700042179 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X4435MZ82Y;
+						TestTargetID = 8B94BFC11D83975700042179;
+					};
+					8B94BFE51D83975700042179 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X4435MZ82Y;
+						TestTargetID = 8B94BFC11D83975700042179;
+					};
+				};
+			};
+			buildConfigurationList = 8B94BFBD1D83975700042179 /* Build configuration list for PBXProject "SealSnowAndRainAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B94BFB91D83975700042179;
+			productRefGroup = 8B94BFC31D83975700042179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B94BFC11D83975700042179 /* SealSnowAndRainAnimation */,
+				8B94BFDA1D83975700042179 /* SealSnowAndRainAnimationTests */,
+				8B94BFE51D83975700042179 /* SealSnowAndRainAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B94BFC01D83975700042179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94BFD51D83975700042179 /* LaunchScreen.storyboard in Resources */,
+				8B94BFD21D83975700042179 /* Assets.xcassets in Resources */,
+				8B94BFD01D83975700042179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFD91D83975700042179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFE41D83975700042179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B94BFBE1D83975700042179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94BFFD1D83A1FE00042179 /* SnowView.m in Sources */,
+				8B94BFCD1D83975700042179 /* ViewController.m in Sources */,
+				8B94C0001D83A61100042179 /* RainView.m in Sources */,
+				8B94BFFA1D83981C00042179 /* CAEmitterLayerView.m in Sources */,
+				8B94BFCA1D83975700042179 /* AppDelegate.m in Sources */,
+				8B94BFC71D83975700042179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFD71D83975700042179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94BFE01D83975700042179 /* SealSnowAndRainAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94BFE21D83975700042179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94BFEB1D83975700042179 /* SealSnowAndRainAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B94BFDD1D83975700042179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B94BFC11D83975700042179 /* SealSnowAndRainAnimation */;
+			targetProxy = 8B94BFDC1D83975700042179 /* PBXContainerItemProxy */;
+		};
+		8B94BFE81D83975700042179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B94BFC11D83975700042179 /* SealSnowAndRainAnimation */;
+			targetProxy = 8B94BFE71D83975700042179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B94BFCE1D83975700042179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B94BFCF1D83975700042179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B94BFD31D83975700042179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B94BFD41D83975700042179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B94BFED1D83975700042179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B94BFEE1D83975700042179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B94BFF01D83975700042179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SealSnowAndRainAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panada.SealSnowAndRainAnimationffm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B94BFF11D83975700042179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SealSnowAndRainAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panada.SealSnowAndRainAnimationffm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B94BFF31D83975700042179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SealSnowAndRainAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panda.SealSnowAndRainAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SealSnowAndRainAnimation.app/SealSnowAndRainAnimation";
+			};
+			name = Debug;
+		};
+		8B94BFF41D83975700042179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SealSnowAndRainAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panda.SealSnowAndRainAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SealSnowAndRainAnimation.app/SealSnowAndRainAnimation";
+			};
+			name = Release;
+		};
+		8B94BFF61D83975700042179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SealSnowAndRainAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panda.SealSnowAndRainAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SealSnowAndRainAnimation;
+			};
+			name = Debug;
+		};
+		8B94BFF71D83975700042179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SealSnowAndRainAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-Panda.SealSnowAndRainAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SealSnowAndRainAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B94BFBD1D83975700042179 /* Build configuration list for PBXProject "SealSnowAndRainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94BFED1D83975700042179 /* Debug */,
+				8B94BFEE1D83975700042179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94BFEF1D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94BFF01D83975700042179 /* Debug */,
+				8B94BFF11D83975700042179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94BFF21D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94BFF31D83975700042179 /* Debug */,
+				8B94BFF41D83975700042179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94BFF51D83975700042179 /* Build configuration list for PBXNativeTarget "SealSnowAndRainAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94BFF61D83975700042179 /* Debug */,
+				8B94BFF71D83975700042179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B94BFBA1D83975700042179 /* Project object */;
+}
