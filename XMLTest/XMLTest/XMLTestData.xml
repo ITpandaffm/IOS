@@ -1,0 +1,11 @@
+<data>
+    <person age = "20" sex = "男" >冯富铭</person>
+    <person age = "19">ffm</person>
+    <person>
+        <teenager>
+            <child>
+                Kuuga 空我 
+            </child>
+        </teenager>
+    </person>
+</data>

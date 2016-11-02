@@ -1,0 +1,20 @@
+<questions>
+    <question text = "世界上最帅的人是?" right = "C">
+        <answer text = "ffm" tag = "A"></answer>
+        <answer text = "冯富铭" tag = "B"></answer>
+        <answer text = "冯小铭" tag = "C"></answer>
+        <answer text = "冯星铭" tag = "D"></answer>
+    </question>
+    <question text = "世界上最聪明的人是?" right = "A">
+        <answer text = "ffm" tag = "A"></answer>
+        <answer text = "冯富铭" tag = "B"></answer>
+        <answer text = "冯小铭" tag = "C"></answer>
+        <answer text = "冯星铭" tag = "D"></answer>
+    </question>
+    <question text = "世界上最暖的人是?" right = "D">
+        <answer text = "ffm" tag = "A"></answer>
+        <answer text = "冯富铭" tag = "B"></answer>
+        <answer text = "冯小铭" tag = "C"></answer>
+        <answer text = "冯星铭" tag = "D"></answer>
+    </question>
+</questions>
