@@ -42,6 +42,7 @@
 		8B49DD251DD37F9B00EDFCFB /* MySliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySliderView.xib; sourceTree = "<group>"; };
 		8BEDAEA11DD544D7006712D2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BEDAEA21DD544D7006712D2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BEDAEA41DD54B3A006712D2 /* SliderControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControlDelegate.h; sourceTree = "<group>"; };
 		8BF712521DD0515B004CE5A0 /* RentCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF712561DD0515B004CE5A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF712581DD0515B004CE5A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,9 +113,10 @@
 				8B49DD251DD37F9B00EDFCFB /* MySliderView.xib */,
 				8B49DD221DD37F8200EDFCFB /* MySliderView.h */,
 				8B49DD231DD37F8200EDFCFB /* MySliderView.m */,
+				8BEDAEA41DD54B3A006712D2 /* SliderControlDelegate.h */,
 				8BEDAEA11DD544D7006712D2 /* ViewController.h */,
-				8BEDAEA21DD544D7006712D2 /* ViewController.m */,
 				8BF712611DD0515B004CE5A0 /* Assets.xcassets */,
+				8BEDAEA21DD544D7006712D2 /* ViewController.m */,
 				8BF712631DD0515B004CE5A0 /* LaunchScreen.storyboard */,
 				8BF712661DD0515B004CE5A0 /* Info.plist */,
 				8BF712551DD0515B004CE5A0 /* Supporting Files */,

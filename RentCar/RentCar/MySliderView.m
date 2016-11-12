@@ -27,6 +27,10 @@
     // Drawing code
 }
 */
+
+
+
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -84,6 +88,65 @@
     [self carBtn];
 }
 
+#pragma mark clickMethods
+
+//这里这个方法边界判断还是有点bug呀擦擦擦擦
+- (void)carBtn:(UIButton *)sender draggedWithEvent:(UIEvent *)event
+{
+    [self limitationJudge:sender];
+    NSArray *touchesArray = [[event touchesForView:sender] allObjects];
+    UITouch *touchPoint = [touchesArray firstObject];
+    if (touchPoint)
+    {
+        CGFloat offset = [touchPoint locationInView:sender].x - [touchPoint previousLocationInView:sender].x;
+        
+        CGRect offsetRect = CGRectMake(sender.frame.origin.x + offset, sender.frame.origin.y, sender.frame.size.width, sender.frame.size.height);
+        sender.frame = offsetRect;
+    }
+
+}
+
+- (void)carBtn:(UIButton *)sender touchesUpWithEvent:(UIEvent *)event
+{
+    [self limitationJudge:sender];
+    [self carBtnMoveToNearestPosititon:[self findCarBtnNearestPosition]];
+    [self.delegate sliderControl:self moveToPosition:[self findCarBtnNearestPosition]];
+}
+
+//判断carBtn是否超出了轨道，如果是的话，则返回边界处
+- (void)limitationJudge:(UIButton *)sender
+{
+    if (sender.center.x < 0)
+    {
+        UIView *firstDotView = [self.dotsMurArr firstObject];
+        sender.center = firstDotView.center;
+        
+    } else if (sender.center.x > self.sliderWrapperView.frame.size.width)
+    {
+        UIView *firstDotView = [self.dotsMurArr lastObject];
+        sender.center = firstDotView.center;
+    }
+
+}
+
+- (int)findCarBtnNearestPosition
+{
+    int position = (int)round(self.carBtn.center.x/(self.sliderWrapperView.bounds.size.width/3));
+    if (position < 0)
+    {
+        position = 0;
+    } else if (position > 3)
+    {
+        position = (int)self.dotsMurArr.count -1;
+    }
+    return position;
+}
+
+- (void)carBtnMoveToNearestPosititon:(int )position
+{
+    UIView *dotView = self.dotsMurArr[position];
+    self.carBtn.center = dotView.center;
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     UIView *currentDotView;
@@ -93,8 +156,7 @@
         if ([touches anyObject].view == currentDotView)
         {
             self.carBtn.center = currentDotView.center;
-//            [self.sliderDelegate sliderControl:self moveToPosition:i];
-            [self.sliderDelegate sliderControlDidMoveTo:i];
+            [self.delegate sliderControl:self moveToPosition:i];
             break;
         }
     }
@@ -121,6 +183,8 @@
         UIView *currentDot = [self.dotsMurArr firstObject];
         _carBtn.center = currentDot.center;
         [self.sliderWrapperView addSubview:_carBtn];
+        [_carBtn addTarget:self action:@selector(carBtn:draggedWithEvent:) forControlEvents:UIControlEventTouchDragInside];
+        [_carBtn addTarget:self action:@selector(carBtn:touchesUpWithEvent:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _carBtn;
 }

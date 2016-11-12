@@ -7,14 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SliderControlDelegate.h"
 
 
-@protocol SliderControlDelegate <NSObject>
-
-//- (void)sliderControl:(MySliderView *)sliderControlView moveToPosition:(int)position;
-- (void)sliderControlDidMoveTo:(int )position;
-@end
 @interface MySliderView : UIView
 
+@property (nonatomic, weak) id<SliderControlDelegate>delegate;
 
 @end
